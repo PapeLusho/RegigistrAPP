@@ -1,0 +1,34 @@
+<ion-toolbar class="tolba" mode="ios">
+  <ion-buttons slot="start">
+    <ion-button [routerLink]="['/login']">
+      <ion-icon color="dark" name="caret-back-outline"></ion-icon>
+    </ion-button>
+  </ion-buttons>
+  <ion-title>
+    <h1>Cuenta</h1>
+  </ion-title>
+</ion-toolbar>
+
+<ion-content>
+  <div class="container">
+    <ion-card mode="ios">
+      <h1>Recuperar Contraseña</h1>
+      <p>Introduce tu correo electrónico o número de móvil para buscar tu cuenta.</p>
+      <div class="TextL">
+        <form [formGroup]="formularioRecuperacion">
+          <ion-input label="Correo Electronico" label-placement="floating" formControlName="correo" fill="outline"
+            placeholder="Ingrese su correo" mode="md"></ion-input>
+        </form>
+      </div>
+      <div class="btons">
+        <ion-button  mode="ios" size="default" (click)="recoveryEmail()" ion-button size="default" color="dark" id="present-alert">Recuperar
+          Contraseña</ion-button>
+      </div>
+    </ion-card>
+  </div>
+</ion-content>
+<footer>
+  <div>
+    <P>RegistrAPP by DuocUC
+  </div>
+</footer>
