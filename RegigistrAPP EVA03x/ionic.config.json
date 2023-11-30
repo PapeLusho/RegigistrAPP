@@ -1,0 +1,7 @@
+{
+  "name": "regitrap",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
