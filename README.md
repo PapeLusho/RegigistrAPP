@@ -1,2 +1,2 @@
 # RegigistrAPP
-EvT | <RegistrAPP>
+EvT | RegistrAPP
